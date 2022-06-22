@@ -3,6 +3,7 @@
     font-family: 'Roboto', sans-serif ; 
     padding:5rem;
     margin: auto 2px;
+    justify-content: space-around;
     
 }
 
@@ -29,11 +30,12 @@
     }
     
     .TurismPoints-list { 
-        margin: 3% auto;
+        margin: 10% auto;
+        width: 90%;
     }
 
     .video { 
-        margin: 3% auto;
-        width: 75%;
+        margin: 2% AUTO;
+        width: 80%;
     }
 }
