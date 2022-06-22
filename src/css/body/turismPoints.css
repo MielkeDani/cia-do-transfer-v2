@@ -1,0 +1,39 @@
+.TurismPoints { 
+    display: flex;
+    font-family: 'Roboto', sans-serif ; 
+    padding:5rem;
+    margin: auto 2px;
+    
+}
+
+.TurismPoints-list { 
+    width: 50% ; 
+    margin-bottom: 3rem;
+    line-height: 2;
+}
+
+.video { 
+    width: 50% ;
+    height: 20rem; 
+}
+
+.city::before { 
+    content: "🚗";
+}
+
+@media(max-width: 768px) { 
+    .TurismPoints { 
+        flex-direction: column;
+        width: 100%;
+        padding: 0%;
+    }
+    
+    .TurismPoints-list { 
+        margin: 3% auto;
+    }
+
+    .video { 
+        margin: 3% auto;
+        width: 75%;
+    }
+}

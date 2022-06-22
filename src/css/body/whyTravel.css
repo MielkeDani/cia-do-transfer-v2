@@ -1,0 +1,44 @@
+/* Question  */
+.why { 
+    background-color: #005E2C;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+    
+
+}
+
+.question { 
+    display: flex ;
+    flex-direction: column;
+    color: aliceblue;
+    line-height: 2;
+
+} 
+
+.question-title, .TurismPoints-list-title { 
+    font-weight: bold;
+}    
+
+
+.itens::before {
+        content: "🚗 ";
+}
+
+@media(max-width: 768px) { 
+    .why { 
+        flex-direction: column;
+        width: 100%;
+        padding: 0%;
+    }
+    
+    .car { 
+        width: 250px ;
+    }
+    
+    .question { 
+        margin: 3% auto;
+    }
+}

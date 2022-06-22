@@ -1,0 +1,28 @@
+
+/* Footer */
+.footer { 
+	text-align: center;
+	background: #003218;
+	padding: 40px 0 ;
+    font-family: 'Roboto', sans-serif ; 
+} 
+
+.logoFooter { 
+    width: 8rem;
+}
+
+.copyright { 
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	margin: 20px 0 0 ; 
+}
+
+@media(max-width: 768px) {
+
+	.footer { 
+		width: 100%;
+		padding: 1rem s ;
+	}
+	
+	}

@@ -1,0 +1,43 @@
+/* Header  */
+
+.caixaHeader { 
+    background:#005E2C;;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgCaixaHeader { 
+    width: 8rem;
+}
+
+.menuNav { 
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 25%;
+    justify-content: space-around;
+    
+}
+
+
+.menuNav-itens { 
+    color: white; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+@media(max-width: 768px) {
+    .caixaHeader { 
+        flex-direction: column;
+    }
+    .menuNav {
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.5;
+    }
+}
